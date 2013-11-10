@@ -1,0 +1,10 @@
+//タップ時のハイライトを非表示
+.highlight_none {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+//スクロール中にスクロールバーを表示 ios5+ android3+
+//バグあるので使うときは注意
+.scroll {
+	-webkit-overflow-scrolling: touch;
+}
